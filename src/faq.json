@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "Yıldız Jam nedir?",
+    "answer": "YILDIZ JAM, Türkiye'deki oyun geliştiricilerini oyun sektörüyle buluşturarak büyük bir network alanı sağlayacak bir zirve ve Yıldız Teknik başta olmak üzere Türkiye'de Game Jam kültürünü yaymaya katkıda bulunmayı hedefleyen bir yarışmadır. Oyun geliştiriciler için Oyunlaştırma, Oyun Geliştirme, Türkiye'deki Mobil ve Bilgisayar Oyunu Sektörü gibi konularıyla paneller ve seminerlerle oyun geliştiricilerinin ufuklarını açmaları hedeflemektedir."
+  },
+  {
+    "id": 2,
+    "question": "Yıldız Jam'de yalnızca seminere veya yarışmaya katılabilir miyim?",
+    "answer": "Elbette, ister ikisine birden istersen de yalnızca birine katıl. Karar senin."
+  },
+  {
+    "id": 3,
+    "question": "YILDIZ JAM'de seminer nedir?",
+    "answer": "Seminer 5 Mayıs'da Yıldız Teknik Üniversitesi Davutpaşa Kampüsü Tarihi Hamam'da (yarışma alanı) yapılacak olan ve yarışmadan önce gerçekleşecek bir etkinliktir. 5 + 1 oturumdan oluşacaktır. Aynı zamanda seminer alanımız dışında oturum aralarında ve oturumların bitmesinin ardından gezebileceğin bir fuaye alanı da bulunacaktır. Bu fuaye alanında oyun sektörüyle bağlantılı her şirketten ve ekipten stant bulunacaktır."
+  },
+  {
+    "id": 4,
+    "question": "Fiziksel alanda yarışma nasıl gerçekleşecektir?",
+    "answer": "Yıldız Teknik Üniversitesi Davutpaşa Kampüsü Tarihi Hamam'da gerçekleşecektir. Fiziksel alanda başvuran takımların kişi sayısına göre 15-20 takım yer alacaktır. Takımınızın fiziksel alanda yer alıp almayacağı yarışmadan 1 hafta önce belli olacaktır. Eğer ki fiziksel olarak katılamayacak takımlar varsa da yedek takımlar sırayla çağırılacaktır."
+  },
+  {
+    "id": 5,
+    "question": "Fiziksel alanda yarışmak için yaş sınırı var mıdır?",
+    "answer": "Yarışmanın fiziksel kısmında iki gece de orada kalınabileceği için yalnızca 18 yaş üstü fiziksel yarışmacılar kabul edilecektir. Fakat üzülme, çevrimiçi tarafta discord kanalımızda herkesle tanışıp yarışmaya hala katılabilirsin."
+  },
+  {
+    "id": 6,
+    "question": "Yarışmaya başvurumun kabul olduğunu nasıl anlayacağım?",
+    "answer": "Yarışmacı formunu doldurmanın ardından mail adresine yarışmacı bileti alacaksın. Ardından itchio sitesinden de Yıldız Jam'e katıl diyerek Jam'e katılımını kesinleştirebilirsin. "
+  }
+]
