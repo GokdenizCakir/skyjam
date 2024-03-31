@@ -12,7 +12,7 @@ const Marque = () => {
                 <div className="py-2 animate-marquee whitespace-nowrap">
                     <span className="text-2xl mx-16 text-white press2p">26-27-28 Nisan</span>
                     <span className="text-2xl mx-16  text-white press2p"></span>
-                    <span className="text-2xl mx-16  text-white press2p">12.00 </span>
+                    <span className="text-2xl mx-16  text-white press2p">18.00 </span>
                     <span className="text-2xl mx-16  text-white press2p">SKY LAB</span>
                     <span className="text-2xl mx-16  text-white press2p">OYUN</span>
                     <span className="text-2xl mx-16  text-white press2p">TARİHİ HAMAM'DA</span>
@@ -23,7 +23,7 @@ const Marque = () => {
                     <span className="text-2xl mx-16  text-white press2p"></span>
                     <span className="text-2xl mx-16  text-white press2p">#YILDIZ </span>
                     <span className="text-2xl mx-16  text-white press2p">SKY LAB</span>
-                    <span className="text-2xl mx-16  text-white press2p">12.00</span>
+                    <span className="text-2xl mx-16  text-white press2p">18.00</span>
                     <span className="text-2xl mx-16  text-white press2p">SEMİNERLER</span>
                     <span className="text-2xl mx-16  text-white press2p">YARIŞMA</span>
                     <span className="text-2xl mx-16  text-white press2p">DAVUTPAŞA KAMPÜSÜ</span>
@@ -32,7 +32,7 @@ const Marque = () => {
                 <div className="py-2 animate-marquee whitespace-nowrap">
                     <span className="text-2xl mx-16 text-white press2p">26-27-28 Nisan</span>
                     <span className="text-2xl mx-16  text-white press2p"></span>
-                    <span className="text-2xl mx-16  text-white press2p">12.00</span>
+                    <span className="text-2xl mx-16  text-white press2p">18.00</span>
                     <span className="text-2xl mx-16  text-white press2p">SKY LAB</span>
                     <span className="text-2xl mx-16  text-white press2p">OYUN</span>
                     <span className="text-2xl mx-16  text-white press2p">FUAYE</span>
@@ -44,7 +44,7 @@ const Marque = () => {
                     <span className="text-2xl mx-16  text-white press2p">#YILDIZ </span>
                     <span className="text-2xl mx-16  text-white press2p">SKY LAB</span>
                     <span className="text-2xl mx-16  text-white press2p">OYUN</span>
-                    <span className="text-2xl mx-16  text-white press2p">12.00</span>
+                    <span className="text-2xl mx-16  text-white press2p">18.00</span>
                     <span className="text-2xl mx-16  text-white press2p">YARIŞMA</span>
                     <span className="text-2xl mx-16  text-white press2p">TARİHİ HAMAM'DA</span>
                     <span className="text-2xl mx-16  text-white press2p">ÖDÜL</span>
