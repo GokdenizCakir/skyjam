@@ -19,7 +19,7 @@ const Marque = () => {
                     <span className="text-2xl mx-16  text-white press2p">DAVUTPAŞA KAMPÜSÜ</span>
                     <span className="text-2xl mx-16  text-white press2p">KONGRE MERKEZİ'NDE</span>
                     <span className="text-2xl mx-16  text-white press2p"></span>
-                    <span className="text-2xl mx-16  text-white press2p">YARIŞMA VE OYUN</span>
+                    <span className="text-2xl mx-16  text-white press2p">YARIŞMA</span>
                     <span className="text-2xl mx-16  text-white press2p">DAVUTPAŞA KAMPÜSÜ</span>
                     <span className="text-2xl mx-16 text-white press2p">TARİHİ HAMAM'DA</span>
                 </div>
@@ -33,7 +33,7 @@ const Marque = () => {
                     <span className="text-2xl mx-16  text-white press2p">DAVUTPAŞA KAMPÜSÜ</span>
                     <span className="text-2xl mx-16  text-white press2p">KONGRE MERKEZİ'NDE</span>
                     <span className="text-2xl mx-16  text-white press2p"></span>
-                    <span className="text-2xl mx-16  text-white press2p">YARIŞMA VE OYUN</span>
+                    <span className="text-2xl mx-16  text-white press2p">YARIŞMA</span>
                     <span className="text-2xl mx-16  text-white press2p">DAVUTPAŞA KAMPÜSÜ</span>
                     <span className="text-2xl mx-16 text-white press2p">TARİHİ HAMAM'DA</span>
                 </div>

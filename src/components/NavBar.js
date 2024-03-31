@@ -3,6 +3,11 @@ import logo from "../images/jam_logo.png";
 
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setDropdownOpen(!dropdownOpen);
+  };
 
   return (
     <nav className="w-full bg-white shadow h-[10vh] fixed  items-center flex z-50 opacity-90 animate__animated animate__fadeInDown">
@@ -30,7 +35,7 @@ export default function NavBar() {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="text-gray-600  hover:bg-second border-4 duration-200 border-second rounded-2xl p-2">
+              <li className="text-second  hover:text-white  font-bold  hover:bg-second border-4 duration-200 border-second rounded-2xl p-2">
                 <a
                   href="javascript:void(0)"
                   className="flex text-second  hover:text-white  font-bold"
@@ -53,10 +58,10 @@ export default function NavBar() {
                   ANASAYFA
                 </a>
               </li>
-              <li className="text-gray-600 hover:text-blue-600 border-4 border-first rounded-2xl p-2">
+              <li className="text-first font-bold  hover:text-white border-4 hover:bg-first border-first rounded-2xl p-2">
                 <a
                   href="https://linktr.ee/ytuskylab"
-                  className="flex text-first font-bold "
+                  className="flex text-first font-bold  hover:text-white"
                 >
                   <svg
                     class="w-6 h-6"
@@ -75,10 +80,11 @@ export default function NavBar() {
                   HAKKIMIZDA
                 </a>
               </li>
-              <li className="text-gray-600 hover:text-blue-600 border-4 border-pink-700 rounded-2xl p-2">
+
+              <li className="text-second  hover:text-white  font-bold  hover:bg-second border-4 duration-200 border-second rounded-2xl p-2">
                 <a
                   href="mailto:yildizskylab@gmail.com"
-                  className="flex text-pink-700 font-bold"
+                  className="flex text-second  hover:text-white  font-bold"
                 >
                   {" "}
                   <svg
@@ -98,28 +104,53 @@ export default function NavBar() {
                   İLETİŞİME GEÇ
                 </a>
               </li>
-              <li className="text-gray-600 hover:text-blue-600 border-4 border-first rounded-2xl p-2">
-                <a
-                  href="https://linktr.ee/skylabytu"
-                  target="_blank"
-                  className="flex text-first font-bold "
+              <li className="relative">
+                <button
+                  onClick={toggleDropdown}
+                  className="text-first font-bold  hover:text-white border-4 hover:bg-first border-first rounded-2xl p-2"
                 >
-                  <svg
-                    class="w-6 h-6"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-                    ></path>
-                  </svg>
-                  KAYIT OL
-                </a>
+                  <span className="flex text-first font-bold  hover:text-white">
+                    KAYIT OL
+                    <svg
+                      className={`w-6 h-6 ml-1 ${dropdownOpen ? 'transform rotate-180' : ''}`}
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </span>
+                </button>
+                {dropdownOpen && (
+                  <ul className="absolute top-full left-0 z-10 bg-white border border-gray-200 rounded-lg mt-1 py-2">
+                    <li>
+                      <a
+                        href="https://forms.office.com/pages/responsepage.aspx?id=CClghVvhukORSDi8dzqBbqf6Jf90B_9Djl4qoneIDzpUNU9OUTFOQkdDWURIVzBZOVNGSzJPQklOMC4u"
+                        className="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Seminer Formu
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://forms.office.com/pages/responsepage.aspx?id=CClghVvhukORSDi8dzqBbqf6Jf90B_9Djl4qoneIDzpURjRPRUxKTzdDUElUMU9IUjBENlU2QlQ2Ry4u"
+                        className="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Yarışmacı Formu
+                      </a>
+                    </li>
+                  </ul>
+                )}
               </li>
             </ul>
           </div>

@@ -60,7 +60,7 @@ export const Header = styled.h1`
   text-align: center;
 
   @media (max-width: 600px) {
-    font-size: 33px;
+    font-size: 26px;
   }
 
   color: #070707;
