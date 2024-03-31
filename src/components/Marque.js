@@ -17,9 +17,9 @@ const Marque = () => {
                     <span className="text-2xl mx-16  text-white press2p">OYUN</span>
                     <span className="text-2xl mx-16  text-white press2p">TARİHİ HAMAM'DA</span>
                     <span className="text-2xl mx-16  text-white press2p">FUAYE</span>
-                    <span className="text-2xl mx-16  text-white press2p">05-06-07 Mayıs</span>
+                    <span className="text-2xl mx-16  text-white press2p">26-27-28 Nisan</span>
                     <span className="text-2xl mx-16  text-white press2p">ÖDÜL</span>
-                    <span className="text-2xl mx-16 text-white press2p">05-06-07 Mayıs</span>
+                    <span className="text-2xl mx-16 text-white press2p">26-27-28 Nisans</span>
                     <span className="text-2xl mx-16  text-white press2p"></span>
                     <span className="text-2xl mx-16  text-white press2p">#YILDIZ </span>
                     <span className="text-2xl mx-16  text-white press2p">SKY LAB</span>
@@ -30,7 +30,7 @@ const Marque = () => {
                     <span className="text-2xl mx-16  text-white press2p">TARİHİ HAMAM'DA</span>
                 </div>
                 <div className="py-2 animate-marquee whitespace-nowrap">
-                    <span className="text-2xl mx-16 text-white press2p">05-06-07 Mayıs</span>
+                    <span className="text-2xl mx-16 text-white press2p">26-27-28 Nisan</span>
                     <span className="text-2xl mx-16  text-white press2p"></span>
                     <span className="text-2xl mx-16  text-white press2p">12.00</span>
                     <span className="text-2xl mx-16  text-white press2p">SKY LAB</span>
@@ -39,7 +39,7 @@ const Marque = () => {
                     <span className="text-2xl mx-16  text-white press2p">TARİHİ HAMAM'DA</span>
                     <span className="text-2xl mx-16  text-white press2p">SEMİNERLER</span>
                     <span className="text-2xl mx-16  text-white press2p">TL ÖDÜL</span>
-                    <span className="text-2xl mx-16 text-white press2p">05-06-07 Mayıs</span>
+                    <span className="text-2xl mx-16 text-white press2p">26-27-28 Nisan</span>
                     <span className="text-2xl mx-16  text-white press2p"></span>
                     <span className="text-2xl mx-16  text-white press2p">#YILDIZ </span>
                     <span className="text-2xl mx-16  text-white press2p">SKY LAB</span>
