@@ -40,7 +40,7 @@ const Footer = () => {
                         </svg>
                     </a>
 
-                    <a target="_blank" href="https://www.instagram.com/skylabkulubu/" className=" text-gray-800">
+                    <a target="_blank" href="https://www.instagram.com/ytuskylab/" className=" text-gray-800">
                         <svg
                             aria-hidden="true"
                             focusable="false"

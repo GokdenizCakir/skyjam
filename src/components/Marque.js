@@ -10,7 +10,7 @@ const Marque = () => {
         <section className='h-[5vh] bg- sticky top-[10vh] z-30 animate__animated animate__fadeInUpBig'>
             <div className=" flex overflow-x-hidden bg-gradient-to-r from-second via-third  to-blue-400 py-1">
                 <div className="py-2 animate-marquee whitespace-nowrap">
-                    <span className="text-2xl mx-16 text-white press2p">05-06-07 Mayıs</span>
+                    <span className="text-2xl mx-16 text-white press2p">26-27-28 Nisan</span>
                     <span className="text-2xl mx-16  text-white press2p"></span>
                     <span className="text-2xl mx-16  text-white press2p">12.00 </span>
                     <span className="text-2xl mx-16  text-white press2p">SKY LAB</span>
