@@ -21,11 +21,6 @@
   },
   {
     "id": 5,
-    "question": "Fiziksel alanda yarışmak için yaş sınırı var mıdır?",
-    "answer": "Yarışmanın fiziksel kısmında iki gece de orada kalınabileceği için yalnızca 18 yaş üstü fiziksel yarışmacılar kabul edilecektir. Fakat üzülme, çevrimiçi tarafta discord kanalımızda herkesle tanışıp yarışmaya hala katılabilirsin."
-  },
-  {
-    "id": 6,
     "question": "Yarışmaya başvurumun kabul olduğunu nasıl anlayacağım?",
     "answer": "Yarışmacı başvurunu formunu doldurmanın ardından olumlu olması halinde mail adresine yarışmacı bileti alacaksın. Ardından itchio sitesinden de Yıldız Jam'e katıl diyerek Jam'e katılımını kesinleştirebilirsin. "
   }
