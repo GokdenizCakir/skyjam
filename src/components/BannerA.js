@@ -52,9 +52,9 @@ const Banner = () => {
             <div className="h-screen w-full  flex justify-center items-center">
                 <TrackVisibility >
                     {({ isVisible }) =>
-                        <div className="grid md:grid-cols-2 grid-cols-1 items-center mb-20 mt-[10vh] md:mt-0  ">
+                        <div className="grid md:grid-cols-2 grid-cols-1 items-center mb-20 mt-[10vh] md:mt-50 sm:mt-25  ">
 
-                            <div className="animate__animated animate__backInDown md:m-5 p-5  pb-5 md:pb-1 md:mt-0" >
+                            <div className="animate__animated animate__backInDown md:m-5 p-5  pb-5 md:pb-1 md:mt-50 sm:mt-25" >
                                 <h2 className='md:text-[5vh] text-[4vh] primarycolor  text-center font-bold '>SKY LAB KULÜBÜ'nden </h2>
                                 <h2 className='md:text-[4vh] text-[3vh] primarycolor  text-center'>YILDIZ JAM Oyun Geliştirme Zirvesi ve Yarışması</h2>
                                 <h5 className='md:text-[3vh] text-[3vh] text-gray-200 secondarycolor m-3 text-center'>YILDIZ JAM'de {<br />} neler var?</h5>
