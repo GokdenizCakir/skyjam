@@ -62,7 +62,7 @@ const Banner = () => {
                                     <span className='lexend'>{text}</span>
                                 </div>
                                 <div className="thirdcolor h-0 text-[5vh] md:text-[10vh] p-3 text-center mt-6 ">
-                                    <a href='https://linktr.ee/skylabytu' target={"_blank"} className='border p-2 m-4 text-black border-r-6 border-black w-48 text-3xl text-center'>KAYIT OL</a>
+                                    <a href='https://linktr.ee/ytuskylab?fbclid=PAAaa36zvojBgELRk5I_uKyRuGk5yNu4nWpSaE8Zg_jgUpH433TuV1e2mvd2A' target={"_blank"} className='border p-2 m-4 text-black border-r-6 border-black w-48 text-3xl text-center'>KAYIT OL</a>
                                 </div>
                             </div>
                             <div className='justify-center items-center flex  drop-shadow-4xl animate__animated animate__backInDown'>
