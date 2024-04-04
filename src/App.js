@@ -25,6 +25,7 @@ import Mentors from "./components/speakers/Mentors";
 import StantBarı from "./components/speakers/StantBarı";
 import Stants from "./components/speakers/Stants";
 import Banner from "./Banner";
+import Prize from "./components/Prize";
 
 
 
@@ -56,7 +57,7 @@ function App() {
         </h4>
       </Banner>
       <Reason />
-
+      <Prize />
       <SpeakersBar />
       <Speakers />
       <StantBarı/>

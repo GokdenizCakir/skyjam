@@ -35,7 +35,7 @@ export default function NavBar() {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="cursor-pointer text-second font-bold border-4 border-second rounded-2xl p-2 relative hover:bg-second hover:text-white transition duration-300">
+              <li className="cursor-pointer text-second font-bold border-4 border-second rounded-2xl p-2 relative hover:bg-second hover:text-white transition duration-300 ">
                 <a
                   href="javascript:void(0)"
                   className="flex font-bold"
@@ -133,7 +133,7 @@ export default function NavBar() {
                   <ul className="absolute top-full left-0 z-10 bg-white border border-gray-200 rounded-lg mt-1 py-2">
                     <li>
                       <a
-                        href="https://forms.office.com/pages/responsepage.aspx?id=CClghVvhukORSDi8dzqBbqf6Jf90B_9Djl4qoneIDzpUNU9OUTFOQkdDWURIVzBZOVNGSzJPQklOMC4u"
+                        href="https://forms.office.com/pages/responsepage.aspx?id=CClghVvhukORSDi8dzqBbiW71iuprpdGm4fb9lyf0dFUOFlDSEdNN1JSWDM4TDZISEVMVkNNSkJQSS4u"
                         className="block px-4 py-2 text-gray-800 hover:bg-gray-200"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -143,7 +143,7 @@ export default function NavBar() {
                     </li>
                     <li>
                       <a
-                        href="https://forms.office.com/pages/responsepage.aspx?id=CClghVvhukORSDi8dzqBbqf6Jf90B_9Djl4qoneIDzpURjRPRUxKTzdDUElUMU9IUjBENlU2QlQ2Ry4u"
+                        href="https://forms.office.com/pages/responsepage.aspx?id=CClghVvhukORSDi8dzqBbiW71iuprpdGm4fb9lyf0dFUM05QQUpGM0VDUDFNNTVKNVhGM0E3TEhNSC4u"
                         className="block px-4 py-2 text-gray-800 hover:bg-gray-200"
                         target="_blank"
                         rel="noopener noreferrer"
