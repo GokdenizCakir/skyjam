@@ -1,25 +1,8 @@
 import React from 'react'
-import corny from '../../logos/corny logo-01.png'
-import gamerozzi from '../../logos/gamerozzi.png'
-import gamfed from '../../logos/gamfed.png'
-import narcade from '../../logos/narcade.jpeg'
-import castrum from "../../logos/medya/castrum.svg"
-import crytek from "../../logos/crytek.png"
-import gamecircle from "../../logos/Yeni/gamecircle.png"
-import nescafe from "../../logos/nescafe.png"
-import haribo from "../../logos/Yeni/haribo.png"
-import sense4motion from "../../logos/Yeni/s4m_logo.png"
-import altın from "../../logos/altın.png"
-import bebeto from "../../logos/bebeto.jpg"
-import gamizm from "../../logos/gamizm-logo.png"
-import terra from "../../logos/terraPizza.png"
-import gamerpapers from "../../logos/gamerpaper.png"
-import dorock from "../../logos/dorock.png"
-import suog from "../../logos/suog.png" 
-import esenler from "../../logos/esenler.png" 
-import frp from "../../logos/frpnet.png"
-import buglabzone from "../../logos/buglabzone.png"
-import medya2 from "../../logos/2medya.png"
+import techcareer from '../../images/Logo-yeni/techcareer-dikey-logo.png'
+import sisal from '../../images/sisal_Green.png'
+import gungoren from '../../images/güngören.png'
+
 
 const Sponsors = () => {
   return (
@@ -89,13 +72,24 @@ const Sponsors = () => {
         <div className=' w-full flex justify-center items-center gap-2 mt-8'>
             <span className=' flex-1 bg-first h-[2px]' />
             <h1 className=' text-3xl font-semibold baralt'>
+                Ana Sponsor
+            </h1>
+            <span className=' flex-1 bg-first h-[2px]'/>
+        </div>
+        <br/>
+        <div className='w-full flex justify-center items-center grid-rows-3'>
+            <a href='https://www.crytek.com/' target={"_blank"}><img src={sisal} width="550px"/></a>
+        </div>
+        <div className=' w-full flex justify-center items-center gap-2 mt-8'>
+            <span className=' flex-1 bg-first h-[2px]' />
+            <h1 className=' text-3xl font-semibold baralt'>
                 Altın Sponsor
             </h1>
             <span className=' flex-1 bg-first h-[2px]'/>
         </div>
         <br/>
         <div className='w-full flex justify-center items-center grid-rows-3'>
-            {/*<a href='https://www.crytek.com/' target={"_blank"}><img src={crytek} width="512px"/></a>*/}
+            <a href='https://www.crytek.com/' target={"_blank"}><img src={techcareer} width="400px"/></a>
         </div>
         <div className=' w-full flex justify-center items-center gap-2 mt-8'>
             <span className=' flex-1 bg-first h-[2px]' />
@@ -111,13 +105,13 @@ const Sponsors = () => {
         <div className=' w-full flex justify-center items-center gap-2 mt-8'>
             <span className=' flex-1 bg-first h-[2px]' />
             <h1 className=' text-3xl font-semibold baralt'>
-                MoCap Sponsoru
+                Jam Sponsoru
             </h1>
             <span className=' flex-1 bg-first h-[2px]'/>
         </div>
         <br/>
         <div className='w-full flex justify-center items-center grid-rows-3'>
-            {/*<a href='https://www.sense4motion.com/' target={"_blank"}><img src={sense4motion} width="384px"/></a>*/}
+            <a href='https://www.sense4motion.com/' target={"_blank"}><img src={gungoren} width="300px"/></a>
         </div>
         <div className=' w-full flex justify-center items-center gap-2 mt-8'>
             <span className=' flex-1 bg-first h-[2px]' />
