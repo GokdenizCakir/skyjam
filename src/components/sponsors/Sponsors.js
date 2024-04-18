@@ -77,8 +77,8 @@ const Sponsors = () => {
             <span className=' flex-1 bg-first h-[2px]'/>
         </div>
         <br/>
-        <div className='w-full flex justify-center items-center grid-rows-3'>
-            <a href='https://www.crytek.com/' target={"_blank"}><img src={sisal} width="550px"/></a>
+        <div className='w-full flex justify-center items-center grid-rows-3 '>
+            <a href='https://www.crytek.com/' target={"_blank"}><img className='drop-shadow-2xl bg-white' src={sisal} width="550px"/></a>
         </div>
         <div className=' w-full flex justify-center items-center gap-2 mt-8'>
             <span className=' flex-1 bg-first h-[2px]' />
@@ -89,7 +89,7 @@ const Sponsors = () => {
         </div>
         <br/>
         <div className='w-full flex justify-center items-center grid-rows-3'>
-            <a href='https://www.crytek.com/' target={"_blank"}><img src={techcareer} width="400px"/></a>
+            <a href='https://www.crytek.com/' target={"_blank"}><img className='drop-shadow-2xl bg-white' src={techcareer} width="400px"/></a>
         </div>
         <div className=' w-full flex justify-center items-center gap-2 mt-8'>
             <span className=' flex-1 bg-first h-[2px]' />
@@ -111,7 +111,7 @@ const Sponsors = () => {
         </div>
         <br/>
         <div className='w-full flex justify-center items-center grid-rows-3'>
-            <a href='https://www.sense4motion.com/' target={"_blank"}><img src={gungoren} width="300px"/></a>
+            <a href='https://www.sense4motion.com/' target={"_blank"}><img className='drop-shadow-2xl bg-white' src={gungoren} width="300px"/></a>
         </div>
         <div className=' w-full flex justify-center items-center gap-2 mt-8'>
             <span className=' flex-1 bg-first h-[2px]' />
