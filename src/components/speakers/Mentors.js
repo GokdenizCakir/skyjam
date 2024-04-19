@@ -3,7 +3,7 @@ import question from "../../images/question_mark.png"
 
 const Mentors = () => {
     return (
-        <div className=' overflow-x-hidden w-100vw grid grid-cols-5 sm:grid-cols-5 md:grid-cols-5 lg:grid-cols-5'>
+        <div className=' overflow-x-hidden w-100vw grid grid-cols-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5'>
 
             <div className=' w-full  relative speakers-box overflow-hidden transition-all'>
                 <img className=' w-full' alt='img' src={question} />
