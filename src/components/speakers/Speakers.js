@@ -5,6 +5,12 @@ import cemreaksoy from '../../images/cemre.png'
 import osmanyalin from '../../images/Osman.png'
 import ozansolmaz from '../../images/Ozan.png'
 import ezgi from '../../images/ezgi.png'
+import ahmetkaya from '../../images/ahmetkaya.png'
+import enginulukurtlar from '../../images/enginulukurtlar.png'
+import bahadırr from '../../images/bahadırr.png'
+import alpgeven from '../../images/alpgeven.png'
+import berkayy from '../../images/berkayy.png'
+import anılcan from '../../images/anılcan.png'
 
 const Speakers = () => {
     return (
@@ -43,10 +49,50 @@ const Speakers = () => {
                 </div>
 
             <div className=' w-full  relative speakers-box overflow-hidden transition-all'>
-                    <img className=' w-full' alt='img' src={question} />
+                    <img className=' w-full' alt='img' src={ahmetkaya} />
                     <div className=' absolute w-full h-full opacity-0 top-[-100vh] speakers-information transition-all flex justify-center items-center px-4 overflow-x-hidden'>
                         <p className=' text-white cursor-pointer text-center konusmaci'>
-                        Yakında...
+                        Ahmet Kaya
+                        </p>
+                    </div>
+                </div>
+                <div className=' w-full  relative speakers-box overflow-hidden transition-all'>
+                    <img className=' w-full' alt='img' src={enginulukurtlar} />
+                    <div className=' absolute w-full h-full opacity-0 top-[-100vh] speakers-information transition-all flex justify-center items-center px-4 overflow-x-hidden'>
+                        <p className=' text-white cursor-pointer text-center konusmaci'>
+                        Engin Ulukurtlar
+                        </p>
+                    </div>
+                </div>
+                <div className=' w-full  relative speakers-box overflow-hidden transition-all'>
+                    <img className=' w-full' alt='img' src={bahadırr} />
+                    <div className=' absolute w-full h-full opacity-0 top-[-100vh] speakers-information transition-all flex justify-center items-center px-4 overflow-x-hidden'>
+                        <p className=' text-white cursor-pointer text-center konusmaci'>
+                        Bahadır
+                        </p>
+                    </div>
+                </div>
+                <div className=' w-full  relative speakers-box overflow-hidden transition-all'>
+                    <img className=' w-full' alt='img' src={alpgeven} />
+                    <div className=' absolute w-full h-full opacity-0 top-[-100vh] speakers-information transition-all flex justify-center items-center px-4 overflow-x-hidden'>
+                        <p className=' text-white cursor-pointer text-center konusmaci'>
+                        Alp Geven
+                        </p>
+                    </div>
+                </div>
+                <div className=' w-full  relative speakers-box overflow-hidden transition-all'>
+                    <img className=' w-full' alt='img' src={berkayy} />
+                    <div className=' absolute w-full h-full opacity-0 top-[-100vh] speakers-information transition-all flex justify-center items-center px-4 overflow-x-hidden'>
+                        <p className=' text-white cursor-pointer text-center konusmaci'>
+                        Berkay
+                        </p>
+                    </div>
+                </div>
+                <div className=' w-full  relative speakers-box overflow-hidden transition-all'>
+                    <img className=' w-full' alt='img' src={anılcan} />
+                    <div className=' absolute w-full h-full opacity-0 top-[-100vh] speakers-information transition-all flex justify-center items-center px-4 overflow-x-hidden'>
+                        <p className=' text-white cursor-pointer text-center konusmaci'>
+                        Anılcan
                         </p>
                     </div>
                 </div>
