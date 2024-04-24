@@ -68,7 +68,7 @@ const Speakers = () => {
                     <img className=' w-full' alt='img' src={bahadırr} />
                     <div className=' absolute w-full h-full opacity-0 top-[-100vh] speakers-information transition-all flex justify-center items-center px-4 overflow-x-hidden'>
                         <p className=' text-white cursor-pointer text-center konusmaci'>
-                        Bahadır
+                        Doç. Dr. Bahadır Uçan
                         </p>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ const Speakers = () => {
                     <img className=' w-full' alt='img' src={berkayy} />
                     <div className=' absolute w-full h-full opacity-0 top-[-100vh] speakers-information transition-all flex justify-center items-center px-4 overflow-x-hidden'>
                         <p className=' text-white cursor-pointer text-center konusmaci'>
-                        Berkay
+                        Berkay Güney
                         </p>
                     </div>
                 </div>
@@ -92,7 +92,7 @@ const Speakers = () => {
                     <img className=' w-full' alt='img' src={anılcan} />
                     <div className=' absolute w-full h-full opacity-0 top-[-100vh] speakers-information transition-all flex justify-center items-center px-4 overflow-x-hidden'>
                         <p className=' text-white cursor-pointer text-center konusmaci'>
-                        Anılcan
+                        Anıl Can Turan
                         </p>
                     </div>
                 </div>

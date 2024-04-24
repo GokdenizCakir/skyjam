@@ -13,7 +13,7 @@ const Mentors = () => {
                     <img className=' w-full' alt='img' src={ozann} />
                     <div className=' absolute w-full h-full opacity-0 top-[-100vh] speakers-information transition-all flex justify-center items-center px-4 overflow-x-hidden'>
                         <p className=' text-white cursor-pointer text-center konusmaci'>
-                        Ozan 
+                        Ozan Ün
                         </p>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ const Mentors = () => {
                     <img className=' w-full' alt='img' src={birsendemirkir} />
                     <div className=' absolute w-full h-full opacity-0 top-[-100vh] speakers-information transition-all flex justify-center items-center px-4 overflow-x-hidden'>
                         <p className=' text-white cursor-pointer text-center konusmaci'>
-                        Birsen Demir Kır 
+                        Birsen Demirkır 
                         </p>
                     </div>
                 </div>
